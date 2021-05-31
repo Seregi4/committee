@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header-link {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.header-link:hover {
+    color: deepskyblue;
+}
+
+.element {
+    border: 2px solid deepskyblue;
+    border-radius: 4px;
+
+    margin: 10px auto;
+    padding: 40px 20px;
+    width: 600px;
+    text-align: center;
+
+}
+
+.element-name {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.element:hover {
+    background: deepskyblue;
+
+}
+
+.center-main {
+    margin-top: 150px;
+}

@@ -1,0 +1,367 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.table {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.table .left-panel {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px!important;
+    padding-left: 20px!important;
+}
+
+.table .left-panel .faculty {
+    width: 100%;
+}
+
+.table .left-panel .faculty form{
+    width: 100%;
+}
+
+.table .left-panel .faculty form button{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    height: 50px;
+    width: 100%;
+    background: white;
+    border: none;
+
+}
+
+.table .left-panel .faculty form button:hover{
+    border: 1px solid dodgerblue;
+    cursor: pointer;
+}
+
+.table .left-panel .faculty form input{
+    display: none;
+}
+
+.button-add {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 40px;
+    background: royalblue;
+    border-radius: 5px;
+    border: 1px solid royalblue;
+}
+.button-add form{
+    width: 100%;
+    height: 100%;
+}
+
+.button-add form button{
+    height: 100%;
+    width: 100%;
+    background: none;
+    border: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.button-add form button:hover{
+    cursor: pointer;
+}
+
+.button-add:hover {
+    border: 1px solid aqua;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.button-home {
+    width: 150px;
+    border: solid 2px orange;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    transition: all 500ms ease;
+    padding: 10px 28px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.button-home:hover {
+
+    background:orange;
+
+    color: white;
+}
+
+.right-panel {
+    width: 70%;
+    height: 100%;
+    min-width: 500px;
+    min-height: 500px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+.right-panel .block-one{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-bottom: 1px solid darkgrey;
+}
+
+.right-panel .block-one div{
+     padding: 10px!important;
+     width: 160px;
+     height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ }
+
+.right-panel .block-one div form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+}
+
+.right-panel .block-one div form button{
+    text-decoration: none;
+    background: none;
+    color:darkgrey;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-bottom: 1px solid white!important;
+}
+
+.right-panel .block-one div form button:hover{
+    cursor: pointer;
+    color: royalblue;
+    border-bottom: 1px solid royalblue!important;
+
+}
+
+.right-panel .block-second {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.right-panel .block-second .block-second-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 70%;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*.right-panel .block-second .block-second-left div{*/
+/*    margin-top: 30px;*/
+/*}*/
+
+.right-panel .block-second .block-second-left form {
+    width: 100%;
+    height: 100%;
+}
+
+.right-panel .block-second .block-second-left form .name{
+    margin-top: 50px;
+}
+
+.right-panel .block-second .block-second-left form .name input{
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid royalblue;
+}
+
+.right-panel .block-second .block-second-left form .description {
+    margin-top: 80px;
+}
+
+.right-panel .block-second .block-second-left form .description textarea{
+    width: 100%;
+    height: 250px;
+    border: 1px solid royalblue;
+    outline: none;
+}
+
+.right-panel .block-second .block-second-left form .block-buttons {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.right-panel .block-second .block-second-right {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 20px;
+    padding: 40px 30px 10px;
+}
+
+.right-panel .block-second .block-second-right .block-second-right-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.right-panel .block-second .block-second-right .block-second-right-list div{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid dodgerblue;
+}
+
+.right-panel .block-second .block-second-right .block-second-right-list div form{
+    width: 100%;
+    height: 100%;
+}
+
+.right-panel .block-second .block-second-right .block-second-right-list div form button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.right-panel .block-second .block-second-right .block-second-right-list div:hover {
+    border: 1px solid aqua;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.right-panel .block-second .block-second-right .block-second-right-list div form button:hover {
+    cursor: pointer;
+}
+
+.bar-specialty {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+
+.bar-specialty div{
+    margin-left: 20px;
+    width: 140px;
+    height: 30px;
+}
+
+.bar-specialty div:first-child{
+    margin-left: 0;
+}
+
+.bar-specialty div form{
+    width: 100%;
+    height: 100%;
+}
+
+.bar-specialty div form button{
+    background: none;
+    color: darkgrey;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar-specialty div form button:hover{
+    border-bottom: 1px solid royalblue;
+    color: royalblue;
+    cursor: pointer;
+}
+
+.link-to-back {
+    margin-top: 20px!important;
+
+}
+
+.link-to-back form{
+    width: 100%;
+    height: 100%;
+}
+
+.link-to-back form button{
+    border: none;
+    background: none;
+    color: royalblue;
+    border-bottom: 1px solid royalblue;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-to-back form button:hover{
+    color: darkgrey;
+    cursor: pointer;
+    border-bottom: 1px solid darkgrey;
+}
+
+.name-spec {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-spec div{
+margin-bottom: 10px;
+}
+
+.name-spec input {
+    width: 140px;
+    border: none;
+    border-bottom: 1px solid royalblue;
+    font-size: 18px;
+    font-weight: 600;
+outline: none;
+}
+
+.description {
+    margin-top: 30px!important;
+}
+
+.edit-form button {
+    border-radius: 5px;
+    margin-top: 5px;
+    background: royalblue;
+    color: white;
+    width: 80px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+}
+
+.edit-form button:hover {
+    border: 1px solid aqua;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}

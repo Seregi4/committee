@@ -3,7 +3,11 @@ package com.levanov;
 import com.levanov.dao.FacultyDAO;
 import com.levanov.dao.SpecialtyDAO;
 import com.levanov.dao.UserDAO;
+import com.levanov.model.Faculty;
 import com.levanov.model.Specialty;
+
+import java.sql.ClientInfoStatus;
+import java.util.List;
 
 
 public class Main {
@@ -16,6 +20,7 @@ public class Main {
 //        userDAO.insertUser(user);
 //
 //
+
 
     }
 }
